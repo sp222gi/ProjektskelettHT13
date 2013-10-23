@@ -1,29 +1,31 @@
 
-# Projektnamn här
-Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+# "pAL's projekt"
+Projektmedlemmar: [Simon/sp222gi] (https://github.com/sp222gi)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Körbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+https://github.com/sp222gi/ProjektskelettHT13/tree/gh-pages
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Jag fick ett önskemål att som projekt göra en hemsida till Kalmar harley club för att ersätta deras nuvarande
+som det inte är något som helst fel på.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+HTML och CSS. Kommer troligtvis att göra allt i cloud9 då jag är van att arbeta i det nu.
+En del photoshop kommer nog också förekomma.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+Det kommer finnas en hel del önskade funktioner som jag inte har kunskapen att implementera.
+Jag kan absolut låtsas göra ett forum som inte går att logga in på eller skriva i för att det var med som
+önskemål samt göra ett inlogg så att man kan skriva nya nyhetsartiklar.
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+Det finns som nämnt redan en hemsida som de använder nu och jag tänkte försöka ha layouten hyffsat lik
+den då medelåldern bland besökarna säkert är över 50år så är det kanske lika bra att de känner igen sig.
+Jag fick veta att trots detta så har många smartphones så en bra mobilsida är att föredra då de oftare
+har telefon än dator med sig när de är ute och åker motorcykel.
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
+```html
+  <a href="https://docs.google.com/spreadsheet/ccc?key=0AnZApgIet069dGVwMmRVSlEzXzdYYjdoeU1jWlkya1E&usp=sharing">Tidsplan</a>
+```
+
 
