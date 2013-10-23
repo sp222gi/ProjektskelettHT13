@@ -24,4 +24,5 @@ Jag fick veta att trots detta så har många smartphones så en bra mobilsida ä
 har telefon än dator med sig när de är ute och åker motorcykel.
 
 ## Tidsplanering
-https://docs.google.com/file/d/0B3ZApgIet069cHJWR2g0cUlXRFU/edit?usp=sharing
+PDF: https://docs.google.com/file/d/0B3ZApgIet069cHJWR2g0cUlXRFU/edit?usp=sharing
+CAL: https://docs.google.com/spreadsheet/ccc?key=0AnZApgIet069dGVwMmRVSlEzXzdYYjdoeU1jWlkya1E&usp=sharing
