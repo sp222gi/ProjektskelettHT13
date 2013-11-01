@@ -7,30 +7,38 @@
         <link href="../pics/favicon.ico"    rel="shortcut icon"         type="image/x-icon" />
         <link href="../css/reset.css"       rel="stylesheet"            type="text/css" />
         <link href="../css/mobile.css"      rel="stylesheet"            type="text/css"         media="only screen and (max-device-width: 480px)" />
-        <link href="../css/style.css"       rel="stylesheet"            type="text/css"         media="screen and (min-width: 481px)"  />
+        <link href="../css/style.css"       rel="stylesheet"            type="text/css"         media="screen and (min-device-width: 481px)" />
     </head>
     
 <body>
-<div id="container"></div>
+<div id="container">
 
     <header>
-        
+        KHC
     </header>
     
     <nav>
     <!--navigation-->
+    <div id="leftnav">
         <ul>
-            <li><a id="start"           href="../index.html" class="active">    Start</a></li>
-            <li><a id="nyheter"         href="nyheter.html">                    Nyheter</a></li>
+            <li><a id="start"           href="../index.html">                   Start</a></li>
+            <li><a id="nyheter"         href="nyheter.html" class="active">     Nyheter</a></li>
             <li><a id="medlemmar"       href="medlemmar.html">                  Medlemmar</a></li>
+        </ul>
+    </div>
+    <div id="rightnav">
+        <ul>
             <li><a id="aktiviteter"     href="aktiviteter.html">                Aktiviteter</a></li>
             <li><a id="foton"           href="foton.html">                      Foton</a></li>
             <li><a id="gastbok"         href="gastbok.html">                    Gästbok</a></li>
         </ul>
+    </div>
     </nav>
     
     <main>
-        <h1>Nyheter</h1>
+    <h1>Nyheter</h1>
+    <div id="content">
+        
     <!--Nyhetssektion börjar här-->
     
         <article>
@@ -76,11 +84,12 @@
         </article>
         
     <!--Nyhetssektion slutar här-->
+    </div>
     </main>
 
     <footer>
-        <p>Kalmar Harley Club</p>
+        <a href="#container"><h1>Kalmar Harley Club</h1></a>
     </footer>
-    
+    </div>
 </body>
 </html>

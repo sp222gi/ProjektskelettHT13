@@ -7,37 +7,110 @@
         <link href="../pics/favicon.ico"    rel="shortcut icon"         type="image/x-icon" />
         <link href="../css/reset.css"       rel="stylesheet"            type="text/css" />
         <link href="../css/mobile.css"      rel="stylesheet"            type="text/css"         media="only screen and (max-device-width: 480px)" />
-        <link href="../css/style.css"       rel="stylesheet"            type="text/css"         media="screen and (min-width: 481px)"  />
+        <link href="../css/style.css"       rel="stylesheet"            type="text/css"         media="screen and (min-device-width: 481px)" />
     </head>
     
 <body>
-<div id="container"></div>
+<div id="container">
 
     <header>
-        
+        KHC
     </header>
     
     <nav>
     <!--navigation-->
+    <div id="leftnav">
         <ul>
-            <li><a id="start"           href="../index.html" class="active">    Start</a></li>
+            <li><a id="start"           href="../index.html">                   Start</a></li>
             <li><a id="nyheter"         href="nyheter.html">                    Nyheter</a></li>
             <li><a id="medlemmar"       href="medlemmar.html">                  Medlemmar</a></li>
+        </ul>
+    </div>
+    <div id="rightnav">
+        <ul>
             <li><a id="aktiviteter"     href="aktiviteter.html">                Aktiviteter</a></li>
             <li><a id="foton"           href="foton.html">                      Foton</a></li>
-            <li><a id="gastbok"         href="gastbok.html">                    Gästbok</a></li>
+            <li><a id="gastbok"         href="gastbok.html"  class="active">    Gästbok</a></li>
         </ul>
+    </div>
     </nav>
     
     <main>
     <h1>Gästbok</h1>
+    <div id="content">
     
-    <p>Kommer snart!</p>
+    <article>
+                    <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" name="pAL" method="post">
+                    
+                        <fieldset>
+                            <legend class="form">Kontaktinformation</legend>
+                                <label>Namn*:</label> <input name="namn" /><br />
+                                <label>Epost*:</label> <input type="email" name="epost" />
+                        </fieldset>
+                        <fieldset>
+                            <legend class="form">Meddelande</legend>
+                                <textarea rows="5" cols="35" name="comment"></textarea>
+                        </fieldset>
+                        <fieldset>
+                                <input type="submit" value="Skicka meddelande" name="submit" class="submit">
+                        </fieldset>
+                    </form>
+    </article>
+    
+        <article>
+            <section>
+                <h2>kerstin och patrik</h2>
+                <p>28 Jul 2013 11:58</p>
+                <p><a href="mailto:kerstin.bergqvist@kil.se">Kerstin.bergqvist@kil.se</a></p>
+            </section>
+            <section>
+                <p>hej på er! vi håller med alla som tackat före oss och bokar härmed in oss för nästa år 2014!! det går väldigt
+                bra med samma tältplats oxå! tack på förhand/ kram till er alla</p>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <h2>Johan Georgsson</h2>
+                <p>11 Jul 2013 22:22</p>
+                <p><a href="mailto:johan.georgsson@gmail.com">johan.georgsson@gmail.com</a>	
+            </section>
+            <section>
+                <p>Fotosidan är nu uppdaterad med bilder från Enuddeträffen 2013. Vi syns! Johan</p>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <h2>Kent och Gittan</h2>
+                <p>10 Jul 2013 19:35</p>
+                <p><a href="mailto:gittan@hdcs.se">gittan@hdcs.se</a></p>	            
+            </section>
+            <section>
+                <p>Vi instämmer helt och fullt, tack för en kanonhelg. Ni gör ett fantastiskt jobb för oss. Stort tack till alla er som kom till träffen också.</p>
+            </section>
+        </article>
+
+        <article>
+            <section>
+                <h2>Lars og Annette fra Bornholm</h2>
+                <p>10 Jul 2013 09:18</p>
+                <p><a href="mailto:Familiendue@hotmail.com">Familiendue@hotmail.com</a></p>	            
+            </section>
+            <section>
+                <p>Endnu et kanon helg på Enudden.
+                Et kæmpe tak til jer alle der har lagt et stort job for alt skal fungere.
+                Det gjorde det til mindste detalj. Pas på jer selv allesammen.
+                Håber vi snart ses igen. Bornholmerne</p>
+            </section>
+        </article>
+
+    </div>
     </main>
 
     <footer>
-        <p>Kalmar Harley Club</p>
+        <a href="#container"><h1>Kalmar Harley Club</h1></a>
     </footer>
-    
+    </div>
 </body>
 </html>

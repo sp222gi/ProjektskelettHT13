@@ -7,35 +7,43 @@
         <link href="../pics/favicon.ico"    rel="shortcut icon"         type="image/x-icon" />
         <link href="../css/reset.css"       rel="stylesheet"            type="text/css" />
         <link href="../css/mobile.css"      rel="stylesheet"            type="text/css"         media="only screen and (max-device-width: 480px)" />
-        <link href="../css/style.css"       rel="stylesheet"            type="text/css"         media="screen and (min-width: 481px)"  />
+        <link href="../css/style.css"       rel="stylesheet"            type="text/css"         media="screen and (min-device-width: 481px)" />
     </head>
     
 <body>
-<div id="container"></div>
+<div id="container">
 
     <header>
-        
+        KHC
     </header>
     
     <nav>
     <!--navigation-->
+    <div id="leftnav">
         <ul>
-            <li><a id="start"           href="../index.html" class="active">    Start</a></li>
+            <li><a id="start"           href="../index.html">                   Start</a></li>
             <li><a id="nyheter"         href="nyheter.html">                    Nyheter</a></li>
             <li><a id="medlemmar"       href="medlemmar.html">                  Medlemmar</a></li>
-            <li><a id="aktiviteter"     href="aktiviteter.html">                Aktiviteter</a></li>
+        </ul>
+    </div>
+    <div id="rightnav">
+        <ul>
+            <li><a id="aktiviteter"     href="aktiviteter.html" class="active"> Aktiviteter</a></li>
             <li><a id="foton"           href="foton.html">                      Foton</a></li>
             <li><a id="gastbok"         href="gastbok.html">                    Gästbok</a></li>
         </ul>
+    </div>
     </nav>
     
     <main>
-    <h1>Aktiviteter</h1>
-        <p id=topcomment>Tisdagar träffas vi i lokalen kl. 18:00 för en fika.
+    <h1 class="title">Aktiviteter</h1>
+    <div id="content3">
+        <p class="topcomment">Tisdagar träffas vi i lokalen kl. 18:00 för en fika.
         Alla som delar vårt intresse för motorcyklar i allmänhet 
         och Harley Davidson i synnerhet är välkommna för att snacka
         hoj eller vad som helst</p>
-    
+    </div>
+    <h1 class="title">Tidigare aktiviteter</h1>
     <aside>
         <ul>
             <li><a href="#a2013">2013</a></li>
@@ -46,8 +54,8 @@
             <li><a href="#a2008">2008</a></li>
         </ul>
     </aside>
-
-<article>        
+    
+    <div id="content2">
 <h2 id="a2013">2013</h2>
 <section>
     <table>
@@ -64,15 +72,13 @@
                 xx/xx
             </td>
             <td>
-                xxxxx yyyyy zzzzz
+                xxxxx yyyyy zzzzz wwww
             </td>
             </tr>
         </tbody>
     </table>
 </section>
-</article>
-        
-<article>        
+
 <h2 id="a2012">2012</h2>
 <section>
     <table>
@@ -89,15 +95,13 @@
                 xx/xx
             </td>
             <td>
-                xxxxx yyyyy zzzzz
+                xxxxx yyyyy zzzzz wwww
             </td>
             </tr>
         </tbody>
     </table>
 </section>
-</article>
         
-<article>        
 <h2 id="a2011">2011</h2>
 <section>
     <table>
@@ -114,15 +118,13 @@
                 xx/xx
             </td>
             <td>
-                xxxxx yyyyy zzzzz
+                xxxxx yyyyy zzzzz wwww
             </td>
             </tr>
         </tbody>
     </table>
 </section>
-</article>  
-        
-<article>        
+       
 <h2 id="a2010">2010</h2>
 <section>
     <table>
@@ -139,15 +141,13 @@
                 xx/xx
             </td>
             <td>
-                xxxxx yyyyy zzzzz
+                xxxxx yyyyy zzzzz wwww
             </td>
             </tr>
         </tbody>
     </table>
 </section>
-</article>
-     
-<article>   
+   
 <h2 id="a2009">2009</h2>
 <section>
     <table>
@@ -354,9 +354,7 @@
         </tbody>
     </table>
 </section>
-</article>
-
-<article>       
+      
 <h2 id="a2008">2008</h2>
 <section>
     <table>
@@ -366,7 +364,6 @@
                 <th>Kommentar</th>
             </tr>
         </thead>
-    
         <tbody>
         <tr>
             <td>
@@ -376,7 +373,6 @@
                 Söndagsutflykt från Rasta kl. 11:05
                 Vi blev 10 hojar Palle tog oss till Aboda
             </td>
-            <td>
         </tr>
         <tr>
             <td>
@@ -572,17 +568,16 @@
                 Julfest i Målilla
             </td>
         </tr>
-        <tr>
         </tbody>
     </table>
 </section>
-</article>
-    
+
+    </div>
     </main>
 
     <footer>
-        <p>Kalmar Harley Club</p>
+        <a href="#container"><h1>Kalmar Harley Club</h1></a>
     </footer>
-    
+    </div>
 </body>
 </html>
