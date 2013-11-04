@@ -212,7 +212,7 @@ nav
 {
     position                        :   relative;
     top                             :   -195px;
-    left                            :   665px;
+    left                            :   685px;
 }
 /*---Content areas---*/
 /*---Innehållet på mobilversionen är lite olika där man på---*/
@@ -261,7 +261,7 @@ nav
 .medlemmar a img
 {
     display                         :   block;
-    width                           :   400px;
+    width                           :   415px;
     height                          :   300px;
 }
 .medlemmar a
@@ -293,12 +293,17 @@ nav
 {
     margin                          :   50px;
 }
-
+#container
+{
+	width							:	1000px;
+	margin-right					:	auto;
+	margin-left						:	auto;
+}
 /*---Footer---*/
 footer
 {
-    float                           :   left;
     width                           :   100%;
+    float                           :   left;
     height                          :   auto;
     font-size                       :   30px;
 }
