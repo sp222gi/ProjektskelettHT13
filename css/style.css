@@ -91,23 +91,25 @@ table
     }
 form
 {
-    border                  :   1px solid #000000;
     width                   :   330px;
     padding                 :   10px;
-    margin-left             :   auto;
-    margin-right            :   auto;
+    margin                  :   20px
+                                auto
+                                20px
+                                auto;
+    border                  :   1px solid #000000;
 }
     fieldset
     {
         color               :   #D2CCCE;
         font-size           :   15px;
         padding             :   10px;
-        background          :   #333333;
-        border              :   1px solid #000000;
     }
     input
     {
         width               :   48%;
+        position            :   relative;
+        left                :   80px;
         border              :   1px solid #000000;
     }
     textarea
@@ -130,6 +132,7 @@ form
         border              :   1px solid #000000;
         position            :   relative;
         left                :   80px;
+        font-size           :   15px;
         background          :   #000000;
         color               :   #E9921F;
     }
@@ -235,10 +238,6 @@ nav
     left                            :   350px;
     width                           :   50%;
 }
-main
-{
-    
-}
 #content
 {
     width                           :   700px;
@@ -259,6 +258,14 @@ main
     overflow                        :   auto;
     border-top                      :   1px solid #E9921F;
 }
+/*---för länkarna som flyttar en tillbaka till toppen---*/
+/*---på längre sidor samt länkarna i gästboken----------*/
+.tillbaka a
+{
+    color                           :   #E9921F;
+    text-decoration                 :   none;
+}
+/*---Nästan samma funktioner som på mobilsidan---*/
 .medlemmar a img
 {
     display                         :   block;
@@ -374,7 +381,7 @@ img
 }
 #gruppbild
 {
-    width                           :   100%;
+    width                           :   840px;
 }
 article
 {
@@ -502,6 +509,7 @@ aside a:hover
     color                           :   #E9921F;
     background-color                :   #333333;
 }
+/*---för rubriker. framförallt på aktiviteter-sidan---*/
 .title
 {
     float                           :   right;
@@ -562,6 +570,8 @@ nav
     left                            :   499px;
     width                           :   50%;
 }
+/*---här använder jag också något liknande det i uppgiften med fotogalleriet---*/
+/*---men kombinerat med sprites och jag tyckte det blev helt ok----------------*/
     #leftnav a:hover
     {
         -webkit-transform           :   rotate(1deg);
@@ -576,6 +586,7 @@ nav
         position                    :   relative;
         right                       :   20px;
     }
+/*---här är delen för sprites---*/
     #start
     {
         background-position         :   -501px 0;
@@ -628,10 +639,6 @@ nav
         background-position         :   499px 100px;
         top                         :   -20px;
         }
-main
-{
-
-}
 #content
 {
     width                           :   998px;
@@ -650,6 +657,9 @@ main
     background                      :   #222222;
     border                          :   1px solid   #8B5706;
 }
+/*---denna divtag är till aktivitetersidan---------------*/
+/*---anledningen att jag inte bara använder content2-----*/
+/*---är att det påverkar de andra versionerna av sidan---*/
 #content3
 {
     position                        :   relative;
@@ -660,6 +670,11 @@ main
     background                      :   #222222;
     border                          :   1px solid   #8B5706;
 }
+.tillbaka a
+{
+    color                           :   #E9921F;
+    text-decoration                 :   none;
+}
 .topcomment
 {
     margin                          :   0
@@ -667,6 +682,7 @@ main
                                         0
                                         100px;
 }
+/*---Här är också ungefär som fotogallriet i uppg 5---*/
 .medlemmar a img
 {
     display                         :   block;

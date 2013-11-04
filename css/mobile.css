@@ -201,6 +201,8 @@ nav
         color                       :   #D2CCCE;
     }
 /*---Navigation sides---*/
+/*---Här är navigationen uppdelat för att---*/
+/*---ligga på båda sidor av loggan i header---*/
 #leftnav
 {
     position                        :   relative;
@@ -212,11 +214,11 @@ nav
     top                             :   -195px;
     left                            :   665px;
 }
-main
-{
-    
-}
 /*---Content areas---*/
+/*---Innehållet på mobilversionen är lite olika där man på---*/
+/*---vissa kan behöva en meny för just den sidans innehåll---*/
+/*---men på andra sidor vill man gräna kunna utnyttja hela---*/
+/*---bredden så jag gjorde bara två olika div-taggar---------*/
 #content
 {
     width                           :   930px;
@@ -237,7 +239,13 @@ main
     background                      :   #222222;
     overflow                        :   auto;
 }
-/*---startpage---*/
+.tillbaka a
+{
+    color                           :   #E9921F;
+    text-decoration                 :   none;
+}
+/*---start---*/
+/*---speciella egenskaper för gruppbilden på indexsidan---*/
 #gruppbild
 {
     width                           :   700px;
@@ -246,8 +254,10 @@ main
                                         20px 
                                         auto;
 }
-/*---nyheterpage---*/
-/*---medlemmarpage---*/
+/*---medlemmar---*/
+/*---på medlemssidan tyckte jag att det var lämligt med---*/
+/*---att ha något liknande det vi gjorde i uppgift 5------*/
+/*---Jag har dock inte med transform på mobilsidan--------*/
 .medlemmar a img
 {
     display                         :   block;
@@ -278,19 +288,12 @@ main
 {
     content                         :   attr(title);
 }
-/*---aktiviteterpage---*/
+/*---aktiviteter---*/
 .topcomment
 {
     margin                          :   50px;
 }
-/*---fotonpage---*/
-article .foto
-{
-    border                          :   1px solid #E9921F;
-    margin                          :   20px auto 20px auto;
-    padding                         :   10px 30px;
-}
-/*---gästbokpage---*/
+
 /*---Footer---*/
 footer
 {
